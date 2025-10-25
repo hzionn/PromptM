@@ -255,15 +255,6 @@ Prompt files can be in Markdown (`.md`) or text (`.txt`) format. The filename (w
 - Check for edge cases
 ```
 
-## Dependencies
-
-PromptM uses minimal dependencies:
-
-- `github.com/charmbracelet/bubbletea` - Interactive TUI framework
-- `github.com/lithammer/fuzzysearch` - Fuzzy search algorithm
-- `github.com/pelletier/go-toml` - TOML configuration parsing
-- `golang.org/x/term` - Terminal utilities
-
 ## Potential Roadmap
 
 - [ ] Prompt tags and metadata
