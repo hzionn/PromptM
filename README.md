@@ -6,7 +6,9 @@ A fast, minimal CLI tool for managing and accessing your AI prompt library. Prom
 
 ## Motivation
 
-pass
+As a frequent user of Obsidian, I wanted a seamless way to manage my personal prompt files directly within my knowledge base. With the growing popularity of terminal-based AI tools like codex-cli, gemini-cli, and claude-code, I saw an opportunity to bridge the gap between modern prompt engineering and efficient, text-based workflows.
+
+This project was created to make it easy to organize, access, and use prompts from text-files, while leveraging the power and flexibility of the command line. My goal is to help users streamline their workflow, keep their prompts well-organized, and take advantage of the latest AI tools—all from a familiar environment.
 
 ## Features
 
