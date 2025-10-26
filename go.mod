@@ -1,4 +1,4 @@
-module github.com/hzionn/promptm
+module github.com/hzionn/prompt-manager-cli
 
 go 1.24.0
 

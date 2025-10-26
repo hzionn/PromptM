@@ -13,8 +13,8 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"golang.org/x/term"
 
-	"github.com/hzionn/promptm/internal/prompt"
-	"github.com/hzionn/promptm/internal/search"
+	"github.com/hzionn/prompt-manager-cli/internal/prompt"
+	"github.com/hzionn/prompt-manager-cli/internal/search"
 )
 
 var (

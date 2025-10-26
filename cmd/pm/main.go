@@ -10,11 +10,11 @@ import (
 
 	"golang.org/x/term"
 
-	"github.com/hzionn/promptm/internal/clipboard"
-	"github.com/hzionn/promptm/internal/config"
-	"github.com/hzionn/promptm/internal/prompt"
-	"github.com/hzionn/promptm/internal/search"
-	"github.com/hzionn/promptm/internal/ui"
+	"github.com/hzionn/prompt-manager-cli/internal/clipboard"
+	"github.com/hzionn/prompt-manager-cli/internal/config"
+	"github.com/hzionn/prompt-manager-cli/internal/prompt"
+	"github.com/hzionn/prompt-manager-cli/internal/search"
+	"github.com/hzionn/prompt-manager-cli/internal/ui"
 )
 
 func main() {

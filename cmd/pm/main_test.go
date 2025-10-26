@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hzionn/promptm/internal/clipboard"
-	"github.com/hzionn/promptm/internal/config"
-	"github.com/hzionn/promptm/internal/prompt"
-	"github.com/hzionn/promptm/internal/search"
+	"github.com/hzionn/prompt-manager-cli/internal/clipboard"
+	"github.com/hzionn/prompt-manager-cli/internal/config"
+	"github.com/hzionn/prompt-manager-cli/internal/prompt"
+	"github.com/hzionn/prompt-manager-cli/internal/search"
 )
 
 type terminalStub struct {

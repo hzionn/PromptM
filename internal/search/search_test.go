@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hzionn/promptm/internal/prompt"
+	"github.com/hzionn/prompt-manager-cli/internal/prompt"
 )
 
 func TestSearchMatchesByName(t *testing.T) {

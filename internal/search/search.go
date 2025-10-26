@@ -8,7 +8,7 @@ import (
 
 	"github.com/lithammer/fuzzysearch/fuzzy"
 
-	"github.com/hzionn/promptm/internal/prompt"
+	"github.com/hzionn/prompt-manager-cli/internal/prompt"
 )
 
 var normalizerReplacer = strings.NewReplacer(

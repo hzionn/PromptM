@@ -1,8 +1,8 @@
-# PromptM - Prompt Manager CLI
+# Prompt Manager CLI
 
 > This project is still in development. Installation and settings are not convenient yet.
 
-A fast, minimal CLI tool for managing and accessing your AI prompt library. PromptM lets you organize, search, and reuse prompts efficiently with fuzzy search and interactive selection.
+A fast, minimal CLI tool for managing and accessing your AI prompt library. prompt-manager-cli lets you organize, search, and reuse prompts efficiently with fuzzy search and interactive selection.
 
 ## Motivation
 
@@ -27,8 +27,8 @@ This project was created to make it easy to organize, access, and use prompts fr
 Make sure you have [Go 1.24+](https://golang.org/doc/install) installed.
 
 ```bash
-git clone https://github.com/hzionn/PromptM.git
-cd PromptM
+git clone https://github.com/hzionn/prompt-manager-cli.git
+cd prompt-manager-cli
 go build ./cmd/pm
 ```
 
@@ -144,7 +144,7 @@ pm mesh "system-prompt" "user-prompt" | pbcopy
 
 ## Configuration
 
-PromptM reads configuration from `config/settings.toml`. Create or modify this file to customize behavior:
+prompt-manager-cli reads configuration from `config/settings.toml`. Create or modify this file to customize behavior:
 
 ```toml
 # Default directories where prompts are stored
@@ -189,7 +189,7 @@ truncate_length = 120
 ## Project Structure
 
 ```
-promptm/
+prompt-manager-cli/
 ├── cmd/pm/
 │   └── main.go              # CLI entrypoint
 ├── internal/
@@ -266,4 +266,4 @@ Prompt files can be in Markdown (`.md`) or text (`.txt`) format. The filename (w
 
 ## Support
 
-Found a bug or have a feature request? Please open an [issue](https://github.com/hzionn/PromptM/issues).
+Found a bug or have a feature request? Please open an [issue](https://github.com/hzionn/prompt-manager-cli/issues).
